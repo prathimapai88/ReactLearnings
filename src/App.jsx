@@ -29,11 +29,11 @@ export default class App extends Component {
             <li className="is-active">
               <a onClick={() => this.updateTab("guess")}>Guessing Game</a>
             </li>
-            <li>
+            {/* <li>
               <a onClick={() => this.updateTab("voiceInputDashboard")}>
                 Voice Assistant Dashboard
               </a>
-            </li>
+            </li> */}
             <li>
               <a onClick={() => this.updateTab("animalShow")}>Animal Show</a>
             </li>
