@@ -1,0 +1,34 @@
+.animalContainer{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+.animal-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.animalShow{
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    width: 400px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    right:4px;
+    bottom: 4px;
+}
+
+
+.animal{
+    height: 200px;
+}
